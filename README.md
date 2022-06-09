@@ -2,6 +2,15 @@
 <sub> Un keylogger pour clé usb  </sub>
 
 
+**FEATURES:**
+- Deconnexion de toutes sessions sur le navigateur
+- Détection du navigateur par défaut
+- Envoie des touches par mail/drive/docs,...
+- Ouvre des pages sur le navigateur
+
+PS: certaines fonctionnalités sont en cours de développement et d'autres peuvent voir le jour
+
+--------------------------------------------------------
 
 **FONCTIONNEMENT:**
 1) Ouvre une fenetre de navigateur avec le site de votre choix (l'utilisateur est déconnecté de toute session sur ce site afin qu'il doive se reconnecter)
