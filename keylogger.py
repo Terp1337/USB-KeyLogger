@@ -25,6 +25,9 @@ else:
             result = path
             break
 print(result+" %s")
+#Fin de la partie en cours de dev
+
+
 webbrowser.get(result+" %s").open(site_web)
 #ouvre la page chrome avec le site fourni (ligne5) en déconectant l'utilisateur.
 system("powershell -C Start-Process chrome.exe -ArgumentList @( '-incognito', '"+site_web+"' )")
