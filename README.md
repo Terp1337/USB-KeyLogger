@@ -17,6 +17,14 @@
 --------------------------------------------------------
 
 **Bibliotèques Python à installer:**
-__Pour installer une bibliotèque:__
-Ouvrir le CMD
-pip install nom_de_la_bibliotèque
+
+_Pour installer une bibliotèque:_
+
+1) Ouvrir le CMD
+2) pip install nom_de_la_bibliotèque
+
+Pynput
+os
+webbrowser
+winreg
+shlex
