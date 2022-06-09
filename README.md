@@ -26,9 +26,9 @@ _Pour installer une bibliotèque:_
 Pynput
 
 os
-
+  
 webbrowser
-
+  
 winreg
-
+  
 shlex
