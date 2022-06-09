@@ -32,3 +32,7 @@ webbrowser
 winreg
   
 shlex
+
+--------------------------------------------------------
+
+**Projet en cours de developpement, vous trouverez dans le code source des parties qui serviront à des futures fonctionnalitées**
