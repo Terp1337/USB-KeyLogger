@@ -24,7 +24,11 @@ _Pour installer une bibliotèque:_
 2) pip install nom_de_la_bibliotèque
 
 Pynput
+
 os
+
 webbrowser
+
 winreg
+
 shlex
